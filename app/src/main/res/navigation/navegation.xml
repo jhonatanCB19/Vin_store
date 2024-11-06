@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegation"
+    app:startDestination="@id/home_Fragment">
+
+    <fragment
+        android:id="@+id/home_Fragment"
+        android:name="com.example.shoes.fragment.Home_Fragment"
+        android:label="fragment_home_"
+        tools:layout="@layout/fragment_home_" />
+    <fragment
+        android:id="@+id/canasta_Fragment"
+        android:name="com.example.shoes.fragment.Canasta_Fragment"
+        android:label="fragment_canasta_"
+        tools:layout="@layout/fragment_canasta_" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.shoes.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/history_Fragment"
+        android:name="com.example.shoes.fragment.History_Fragment"
+        android:label="fragment_history_"
+        tools:layout="@layout/fragment_history_" />
+    <fragment
+        android:id="@+id/profil_Fragment"
+        android:name="com.example.shoes.fragment.Profil_Fragment"
+        android:label="fragment_profil_"
+        tools:layout="@layout/fragment_profil_" />
+</navigation>

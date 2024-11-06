@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Item" />
-    <item android:title="Item" />
-    <item android:title="Item" />
-    <item android:title="Item" />
-    <item android:title="Item" />
+    <item
+        android:icon="@drawable/home"
+        android:id="@+id/home_Fragment"
+        android:title="Home" />
+    <item
+        android:icon="@drawable/cart"
+        android:id="@+id/canasta_Fragment"
+        android:title="Canasta"/>
+    <item
+        android:icon="@drawable/search"
+        android:id="@+id/searchFragment"
+        android:title="Buscador" />
+
+    <item
+        android:icon="@drawable/historial"
+        android:id="@+id/history_Fragment"
+        android:title="Historial" />
+    <item
+        android:icon="@drawable/profil"
+        android:id="@+id/profil_Fragment"
+        android:title="Perfil" />
+
 </menu>

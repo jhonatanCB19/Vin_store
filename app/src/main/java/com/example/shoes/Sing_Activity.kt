@@ -9,12 +9,16 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.shoes.databinding.ActivitySingBinding
 
 class Sing_Activity : AppCompatActivity() {
+
     private val binding : ActivitySingBinding by lazy{
         ActivitySingBinding.inflate(layoutInflater)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_sing)
+
+
         enableEdgeToEdge()
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -26,6 +30,7 @@ class Sing_Activity : AppCompatActivity() {
             val intent = Intent(this,LoginActivity:: class.java)
             startActivity(intent)
         }
+
 
 
     }
